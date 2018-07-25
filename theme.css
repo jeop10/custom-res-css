@@ -1,0 +1,28 @@
+/** RES Styles **/
+
+/** Overwatch **/
+[data-subreddit="Overwatch"] .title:before {
+    background: #1565c069;
+}
+
+[data-subreddit="Overwatch"]:hover .title:before {
+    background: #1565c0;
+}
+
+/* Blackops4 */
+[data-subreddit="Blackops4"] .title:before {
+    background: #ffb84da9;
+}
+
+[data-subreddit="Blackops4"]:hover .title:before {
+    background: #ef6c00;
+}
+
+/* The division */
+[data-subreddit="thedivision"] .title:before {
+    background: #ff7043;
+}
+
+[data-subreddit="thedivision"]:hover .title:before {
+    background: #d84315;
+}
