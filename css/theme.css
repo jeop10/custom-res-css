@@ -50,9 +50,9 @@ body:not([class*="res-r-"]) .tagline, .search-result-meta {
 
 /* The division */
 [data-subreddit="thedivision"] .title:before {
-    background: #ff7043;
+    background: #78909c;
 }
 
 [data-subreddit="thedivision"]:hover .title:before {
-    background: #d84315;
+    background: #37474f;
 }
