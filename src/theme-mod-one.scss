@@ -1,0 +1,48 @@
+$things: (
+    '"Overwatch"': ('background': #1565c069, 'hover': #1565c0, 'tag-text-color': white),
+    '"Blackops4"': ('background': #ffb84da9, 'hover': #ef6c00, 'tag-text-color': white), 
+    '"thedivision"': ('background': #78909c, 'hover': #37474f, 'tag-text-color': white), 
+    );
+
+/* Highligh the subreddit name on home and multireddit */
+body:not([class*="res-r-"]) .tagline .subreddit {
+    font-weight: bold;
+    background: #cee3f8;
+    border-radius: 2px;
+    color: #369;
+    font-size: 11px;
+    line-height: 15px;
+    margin-right: .5em;
+    padding: 0 2px;
+    white-space: nowrap;
+}
+
+body:not([class*="res-r-"]) .gilded-icon {
+    position: relative;
+    display: inline-block;
+    margin: 0 0 -14px 8px;
+    top: -8px;
+    color: #99895F;
+    font-size: .9em;
+    vertical-align: middle;
+}
+
+body:not([class*="res-r-"]) .tagline, .search-result-meta {
+    font-size: 11px;
+    line-height: 2.5em;
+}
+
+@each $name, $value in $things {
+    [data-subreddit=#{$name}] .title:before {
+        background: map-get($value, "background");
+    }
+    
+    [data-subreddit=#{$name}]:hover .title:before {
+        background: map-get($value, "hover");
+    }
+
+    body:not([class*="res-r-"]) [data-subreddit=#{$name}] .tagline .subreddit {
+        background: map-get($value, "background");
+        color: map-get($value, "tag-text-color");
+    }
+}
