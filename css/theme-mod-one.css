@@ -38,7 +38,7 @@ body:not([class*="res-r-"]) .tagline,
 
 body:not([class*="res-r-"]) [data-subreddit="Overwatch"] .tagline .subreddit {
   background: #1565c069;
-  color: white;
+  color: #454e59;
 }
 
 .link[data-subreddit="Blackops4"] .title:before {
@@ -51,7 +51,7 @@ body:not([class*="res-r-"]) [data-subreddit="Overwatch"] .tagline .subreddit {
 
 body:not([class*="res-r-"]) [data-subreddit="Blackops4"] .tagline .subreddit {
   background: #ffb84da9;
-  color: white;
+  color: #454e59;
 }
 
 .link[data-subreddit="thedivision"] .title:before {
@@ -64,6 +64,6 @@ body:not([class*="res-r-"]) [data-subreddit="Blackops4"] .tagline .subreddit {
 
 body:not([class*="res-r-"]) [data-subreddit="thedivision"] .tagline .subreddit {
   background: #78909c;
-  color: white;
+  color: #454e59;
 }
 
