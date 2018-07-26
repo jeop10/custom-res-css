@@ -28,11 +28,11 @@ body:not([class*="res-r-"]) .tagline,
   line-height: 2.5em;
 }
 
-[data-subreddit="Overwatch"] .title:before {
+.link[data-subreddit="Overwatch"] .title:before {
   background: #1565c069;
 }
 
-[data-subreddit="Overwatch"]:hover .title:before {
+.link[data-subreddit="Overwatch"]:hover .title:before {
   background: #1565c0;
 }
 
@@ -41,11 +41,11 @@ body:not([class*="res-r-"]) [data-subreddit="Overwatch"] .tagline .subreddit {
   color: white;
 }
 
-[data-subreddit="Blackops4"] .title:before {
+.link[data-subreddit="Blackops4"] .title:before {
   background: #ffb84da9;
 }
 
-[data-subreddit="Blackops4"]:hover .title:before {
+.link[data-subreddit="Blackops4"]:hover .title:before {
   background: #ef6c00;
 }
 
@@ -54,11 +54,11 @@ body:not([class*="res-r-"]) [data-subreddit="Blackops4"] .tagline .subreddit {
   color: white;
 }
 
-[data-subreddit="thedivision"] .title:before {
+.link[data-subreddit="thedivision"] .title:before {
   background: #78909c;
 }
 
-[data-subreddit="thedivision"]:hover .title:before {
+.link[data-subreddit="thedivision"]:hover .title:before {
   background: #37474f;
 }
 
