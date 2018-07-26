@@ -33,11 +33,11 @@ body:not([class*="res-r-"]) .tagline, .search-result-meta {
 }
 
 @each $name, $value in $things {
-    [data-subreddit=#{$name}] .title:before {
+    .link[data-subreddit=#{$name}] .title:before {
         background: map-get($value, "background");
     }
     
-    [data-subreddit=#{$name}]:hover .title:before {
+    .link[data-subreddit=#{$name}]:hover .title:before {
         background: map-get($value, "hover");
     }
 
