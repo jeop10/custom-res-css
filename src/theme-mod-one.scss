@@ -4,33 +4,39 @@ $things: (
     '"thedivision"': ('background': #78909c, 'hover': #37474f, 'tag-text-color': #000), 
     );
 
-/* Highligh the subreddit name on home and multireddit */
-body:not([class*="res-r-"]) .tagline .subreddit {
-    font-weight: bold;
-    background: #cee3f8;
-    border-radius: 2px;
-    color: #369;
-    font-size: 11px;
-    line-height: 15px;
-    margin-right: .5em;
-    padding: 0 2px;
-    white-space: nowrap;
+    
+body:not([class*="res-r-"]) {
+
+    .tagline .subreddit {
+        font-weight: bold;
+        background: #cee3f8;
+        border-radius: 2px;
+        color: #369;
+        font-size: 11px;
+        line-height: 15px;
+        margin-right: .5em;
+        padding: 0 2px;
+        white-space: nowrap;
+        padding: 1px 5px!important;
+    }
+
+    .gilded-icon {
+        position: relative;
+        display: inline-block;
+        margin: 0 0 -14px 8px;
+        top: -8px;
+        color: #99895F;
+        font-size: .9em;
+        vertical-align: middle;
+    }
+
+    .tagline, .search-result-meta {
+        font-size: 11px;
+        line-height: 2.5em;
+    }
+
 }
 
-body:not([class*="res-r-"]) .gilded-icon {
-    position: relative;
-    display: inline-block;
-    margin: 0 0 -14px 8px;
-    top: -8px;
-    color: #99895F;
-    font-size: .9em;
-    vertical-align: middle;
-}
-
-body:not([class*="res-r-"]) .tagline, .search-result-meta {
-    font-size: 11px;
-    line-height: 2.5em;
-}
 
 @each $name, $value in $things {
     .link[data-subreddit=#{$name}] .title:before {
