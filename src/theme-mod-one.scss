@@ -55,7 +55,7 @@ body:not([class*="res-r-"]) {
 
 /* remove the create subrredit button, cuz I dont like it */
 .sidebox{
-    .create {
+    &.create {
         display: none;
     }
 }
