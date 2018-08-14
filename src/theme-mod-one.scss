@@ -52,3 +52,10 @@ body:not([class*="res-r-"]) {
         color: map-get($value, "tag-text-color");
     }
 }
+
+/* remove the create subrredit button, cuz I dont like it */
+.sidebox{
+    .create {
+        display: none;
+    }
+}
