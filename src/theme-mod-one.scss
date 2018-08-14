@@ -59,3 +59,10 @@ body:not([class*="res-r-"]) {
         display: none;
     }
 }
+
+/* improve visual feedback of visited posts */
+.thing {
+    &.visited {
+        background-color: #afafaf1c;
+    }
+}
