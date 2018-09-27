@@ -67,3 +67,11 @@ body:not([class*="res-r-"]) {
         background-color: #afafaf1c;
     }
 }
+
+/* Bring back the old gild icon */
+.gilded-gid2-icon::before {  
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAYAAAD0f5bSAAAABmJLR0QAGACJALpsgx2hAAACcUlEQVQoz22SXUhTcQDFz/3f7d5tztbc3dR9qTUXglgqWRhZGCQYWVCjHnqw0KhEegipJHQEElRE0EPiQ1JWRApmRF9KLsMIIi0x+0ARcW7Nu7nN5q67+7g9RJDi7+1wOA8HfhTWwOEAbV2XZ0635Mw5na7E6p76P7TU2Q4o05i2WCyZzzDyhCjGZSwrmxKEWOvljsnuFSOHA3SxsaCLZeX7aw5XqK25WSCEgiQBszM+9HUPRaJCvD/hxVFn91eRAEChrqA5K5uraWw6orbZzfDzYTSfuwOvJ4ANNiMamxxqi0W/F1yiDQDoplpzvoJV3D9+al+aSsUCAJ72fgKRcfB557GlJBeEENg2mZiPH74X7yjSPKEry/SOzcW2Kn2mVv7w3jBePR9BKLSMhks9GHh2F0NvvmBi3AOzNQOgILndgRmiYpU7TVa9ilDALw+P8j11uHh9GGnpGTh/9S12VTfC4/aBogCjSceoFEwlkWjIaUKQbdLhzNlqDL1sRzAwBwCILAbwuvcGTjZUwWLVg6YJQCQZiUbFd7NuXgAAQ+Z6SJKE32EeL3quIbzgRSqVhNHMAQC8s4G4GI0NEnky6fo2Np0SojEEFyKILi2h61Y9xMX36LxZi7gows+HsbwsYnRkMp5MSf20azQ4X1HKGXy+YFHJ1nw5Z9Dg4KHtKCzKwbZyOwwGDfI2ZqHv8bDg9wcfOdt/ttMAoOT8gxood4+PTetLy+yMVpcOiqL+fgDwoHMg4vHwnxNe6phrghdXaOSst52gGeaKlEppNRlqIRSKKAjBYiomtbR2/Li9pnv/uHDaqqWSxM5CnHJ2ePyr+z/2SvJvoolCUAAAAABJRU5ErkJggg==);  
+  background-position: 0;  
+  height: 14px;  
+  width: 13px;  
+}
